@@ -1,13 +1,24 @@
 import React from 'react';
+
 import Profile from './Profile';
 import user from '../user.json';
 
-// console.log(user.stats.followers);
+import Statistics from './Statistics';
+import statisticalData from '../statistical-data.json';
+
+// import FriendList from './FriendList';
+// import friends from '../friends.json';
+
+console.log(Statistics);
 
 const App = () => {
   return (
     <>
       <Profile user={user} />
+
+      <Statistics title="Upload stats" stats={statisticalData} />
+
+      {/* <FriendList friends={friends} /> */}
     </>
   );
 };
