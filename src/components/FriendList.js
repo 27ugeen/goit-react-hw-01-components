@@ -2,7 +2,7 @@ import React from 'react';
 import FriendListItem from './FriendListItem';
 import PropTypes from 'prop-types';
 
-console.log(FriendListItem);
+// console.log(FriendListItem);
 
 const FriendList = ({ friends }) => {
   return (

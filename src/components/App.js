@@ -9,6 +9,9 @@ import statisticalData from '../statistical-data.json';
 import FriendList from './FriendList';
 import friends from '../friends.json';
 
+import TransactionHistory from './TransactionHistory';
+import transactions from '../transactions.json';
+
 console.log(FriendList);
 
 const App = () => {
@@ -19,6 +22,8 @@ const App = () => {
       <Statistics title="Upload stats" stats={statisticalData} />
 
       <FriendList friends={friends} />
+
+      <TransactionHistory items={transactions} />
     </>
   );
 };
