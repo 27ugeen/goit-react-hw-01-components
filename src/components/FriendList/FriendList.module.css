@@ -1,0 +1,41 @@
+.friendList {
+  width: 280px;
+  margin: 0 auto 30px;
+}
+
+.listItem {
+  display: flex;
+  align-items: center;
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px 1px #768696;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.userAvatar {
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.userName {
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.status {
+  width: 10px;
+  height: 10px;
+  box-shadow: 0px 0px 1px 1px #768696;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.onLine {
+  composes: status;
+  background: hsla(120, 100%, 25%, 0.5);
+}
+
+.offLine {
+  composes: status;
+  background: hsla(0, 100%, 50%, 0.5);
+}

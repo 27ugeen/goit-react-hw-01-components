@@ -1,18 +1,18 @@
 import React from 'react';
 
 import Profile from './Profile';
-import user from '../user.json';
+import user from '../db/user.json';
 
 import Statistics from './Statistics';
-import statisticalData from '../statistical-data.json';
+import statisticalData from '../db/statistical-data.json';
 
 import FriendList from './FriendList';
-import friends from '../friends.json';
+import friends from '../db/friends.json';
 
 import TransactionHistory from './TransactionHistory';
-import transactions from '../transactions.json';
+import transactions from '../db/transactions.json';
 
-console.log(FriendList);
+// console.log(FriendList);
 
 const App = () => {
   return (
