@@ -1,6 +1,5 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-
 import styles from './Profile.module.css';
 
 const { stats, statsItem, label, quantity } = styles;

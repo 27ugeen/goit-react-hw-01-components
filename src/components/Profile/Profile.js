@@ -1,9 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-
 import Stats from './Stats';
 import Description from './Description';
-
 import styles from './Profile.module.css';
 
 const { profile } = styles;
